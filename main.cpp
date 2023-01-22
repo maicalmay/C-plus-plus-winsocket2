@@ -94,6 +94,8 @@ int main() {
         closesocket(ListenSocket);
         WSACleanup();
         return 1;
+    } else {
+        printf("accept is OK");
     }
     // 5.接受来自客户端的连接 end
 
